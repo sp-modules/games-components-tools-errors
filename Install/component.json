@@ -1,0 +1,31 @@
+{
+	"name" : "Errors",
+	"route" : "errors",
+	"description" : "Component to manage Errors on Core App",
+	"module_type" : "components",
+	"app_type" : "games",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-modules/games-components-tools-errors",
+	"class" : "Apps\\Games\\Components\\Errors\\ErrorsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.1",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : []
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true
+	},
+	"widgets" : []
+}
